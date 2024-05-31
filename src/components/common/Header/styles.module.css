@@ -1,0 +1,34 @@
+.headerContainer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.headerLogo {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 2.3rem;
+  margin: 0;
+}
+
+.headerLogo h1 {
+  margin: 0;
+  display: flex;
+}
+
+.headerLogo h1 span {
+  display: block;
+  margin-right: 5px;
+}
+
+.userNone {
+  user-select: none;
+}
+
+.LinkRest {
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+}
