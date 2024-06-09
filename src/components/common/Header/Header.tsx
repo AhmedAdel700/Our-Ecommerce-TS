@@ -32,6 +32,7 @@ export default function Header() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link as={NavLink} to="/">
+                  {/* as => When You Render Work As NavLink From REact Router */}
                   Home
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="categories">

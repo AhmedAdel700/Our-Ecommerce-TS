@@ -1,0 +1,38 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryImg {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryImg img {
+  width: 100%;
+  height: auto;
+}
+
+.category a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.35s;
+}
+
+.category a:hover {
+  text-decoration: underline;
+}
+
+.categoryTitle h2 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
